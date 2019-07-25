@@ -30,7 +30,7 @@ function ($scope, $http, $timeout, $q) {
     };
     
     // Originally I could get it to work with this function (XMLHttpRequest) while $http.post did not work.
-    // Changing the headers for the post headers resolved this issue.
+    // Changing the headers for the post headers resolved this issue. I.e. this function is not needed.
     function postFormData_xhr() {
         var deferred = $q.defer(),
         formdata = new FormData(),
