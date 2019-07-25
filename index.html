@@ -1,0 +1,12 @@
+<html ng-app="App">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.5/angular.min.js"></script>
+    <script src="./fileController.js"></script>
+</head>
+<body>
+    <div class="container" ng-controller="fileController">
+        <input type="file" ng-file="getFile()"></input>
+        data: <span ng-bind="display.data"></span>
+    </div>
+</body>
+</html>
