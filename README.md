@@ -1,6 +1,6 @@
 # AngularJS + Flask file upload
 
-This is a simple example for uploading a file with an <input type="file"> tag from AngularJS to a Flask server.
+This is a simple example for uploading a file with an ```<input type="file">``` tag from AngularJS to a Flask server.
 
 ## Installation
 
