@@ -55,6 +55,9 @@ def uploadCSV2():
     </form>
     '''
 
+#
+# The functions below work for uploading a file using pure Flask (and not AngularJS)
+# 
 @app.route('/test', methods=['POST','GET'])
 def uploadCSVTest():
 
